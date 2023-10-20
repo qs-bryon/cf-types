@@ -3,6 +3,8 @@
     "module": "commonjs",
     "target": "es2019",
     "declaration": true,
+    "emitDeclarationOnly": true,
+    "outFile": "./dist/index.d.ts",
     "outDir": "./dist"
   },
   "include": ["src/**/*"]
